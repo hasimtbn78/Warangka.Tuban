@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery Warangka Tunggak Semi Tuban</title>
+  <style>
+    :root {
+      --primary: #4a2c11;
+      --secondary: #8c5a2b;
+      --accent: #d4af37;
+      --bg: #f9f6f0;
+      --text: #2c2c2c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: var(--bg); color: var(--text); line-height: 1.6; }
+    header { background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), #3d230d; color: #fff; text-align: center; padding: 60px 20px; }
+    header h1 { font-size: 2.5rem; color: var(--accent); margin-bottom: 10px; }
+    header p { font-size: 1.1rem; opacity: 0.9; }
+    nav { background-color: var(--primary); text-align: center; padding: 12px; sticky: top; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { color: var(--accent); }
+    .container { max-width: 1000px; margin: 30px auto; padding: 0 20px; }
+    .card { background: #fff; border-radius: 8px; padding: 25px; margin-bottom: 25px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+    h2 { color: var(--primary); margin-bottom: 15px; border-bottom: 2px solid var(--accent); display: inline-block; padding-bottom: 5px; }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 15px; }
+    .service-item { background: var(--bg); padding: 20px; border-radius: 6px; border-left: 4px solid var(--secondary); }
+    .info-list p { margin-bottom: 10px; }
+    .btn-wa { display: inline-block; background-color: #25d366; color: white; padding: 12px 24px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 15px; }
+    .btn-wa:hover { background-color: #1eb954; }
+    footer { text-align: center; padding: 20px; background-color: var(--primary); color: #fff; font-size: 0.9rem; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Gallery Warangka Tunggak Semi</h1>
+    <p>Seni Kerajinan Warangka & Preservasi Pusaka Tradisional Tuban</p>
+  </header>
+
+  <nav>
+    <a href="#profil">Profil</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#alamat">Alamat & Kontak</a>
+  </nav>
+
+  <div class="container">
+    <section id="profil" class="card">
+      <h2>Tentang Kami</h2>
+      <p>Selamat datang di <strong>Gallery Warangka Tunggak Semi Tuban</strong>. Kami berdedikasi dalam melestarikan budaya adiluhung Nusantara melalui pembuatan dan perawatan warangka pusaka bermutu tinggi dengan sentuhan ukiran tradisional yang teliti dan bahan kayu berkualitas.</p>
+      <br>
+      <p><strong>Pemilik:</strong> NURHASIM</p>
+    </section>
+
+    <section id="layanan" class="card">
+      <h2>Layanan Kerajinan</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <h3>Pembuatan Warangka</h3>
+          <p>Menerima pesanan berbagai model warangka seperti Ladrang, Gayaman, dan gaya khas daerah menggunakan kayu pilihan.</p>
+        </div>
+        <div class="service-item">
+          <h3>Servis & Perbaikan</h3>
+          <p>Perbaikan sandangan keris, pergantian deder/handle, dan penyetelan pasak pusaka.</p>
+        </div>
+        <div class="service-item">
+          <h3>Penjamasan & Perawatan</h3>
+          <p>Perawatan berkala dan penjamasan pusaka agar tetap terjaga keaslian serta kebersihannya.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="alamat" class="card">
+      <h2>Alamat & Lokasi Galeri</h2>
+      <div class="info-list">
+        <p><strong>Nama Galeri:</strong> Gallery Warangka Tunggak Semi Tuban</p>
+        <p><strong>Pemilik:</strong> NURHASIM</p>
+        <p><strong>Alamat Lengkap:</strong> Jl. Pangeran Pengulu, Dusun Krajan, Desa Bejagung, Kecamatan Semanding, Kabupaten Tuban, Jawa Timur</p>
+      </div>
+      <a href="https://wa.me/6281234567890?text=Halo%20Bapak%20Nurhasim,%20saya%20ingin%20bertanya%20mengenai%20pemesanan%20warangka" target="_blank" class="btn-wa">Hubungi via WhatsApp</a>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Gallery Warangka Tunggak Semi Tuban - NURHASIM. Hak Cipta Dilindungi.</p>
+  </footer>
+
+</body>
+</html>
